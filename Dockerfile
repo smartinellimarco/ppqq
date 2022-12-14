@@ -1,6 +1,8 @@
 ARG PYTHON_VERSION
 FROM python:${PYTHON_VERSION}
 
+ARG WORKDIR
+
 # Set working directory.
 WORKDIR ${WORKDIR}
 
