@@ -1,3 +1,4 @@
 [GENERAL]
 
-disable=C0103
+# Remove E0401 since we already use isort.
+disable=C0103,C0411,E0401
