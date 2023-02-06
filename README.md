@@ -23,8 +23,6 @@ print(clr.transform(inputs))
 
 ## Development
 
-:warning: Step on project's root directory.
-
 ### Local
 
 Required tools:
